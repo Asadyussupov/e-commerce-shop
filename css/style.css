@@ -135,7 +135,7 @@ body{
 /* Home Page */
 
 #hero{
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/hero4.png);
+    background-image: url(../img/hero4.png);
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -158,7 +158,7 @@ body{
 }
 
 #hero button{
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/button.png);
+    background-image: url(../img/button.png);
     background-color: transparent;
     color: #088178;
     border: 0;
@@ -306,7 +306,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/banner/b2.jpg);
+    background-image: url(../img/banner/b2.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -345,7 +345,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/banner/b17.jpg);
+    background-image: url(../img/banner/b17.jpg);
     min-width: 580px;
     height: 50vh;
     background-size: cover;
@@ -354,7 +354,7 @@ body{
 }
 
 #sm-banner .banner-box2{
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/banner/b10.jpg);
+    background-image: url(../img/banner/b10.jpg);
 } 
 
 #sm-banner h4{
@@ -391,7 +391,7 @@ body{
     justify-content: center;
     align-items: flex-start;
     text-align: center;
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/banner/b7.jpg);
+    background-image: url(../img/banner/b7.jpg);
     min-width: 30%;
     height: 30vh;
     background-size: cover;
@@ -413,11 +413,11 @@ body{
 }
 
 #banner3 .banner-box2{
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/banner/b4.jpg);
+    background-image: url(../img/banner/b4.jpg);
 }
 
 #banner3 .banner-box3{
-    background-image: url(/Users/asadbekiusupov/Desktop/webfinal/img/banner/b18.jpg);
+    background-image: url(../img/banner/b18.jpg);
 }
 
 #newsletter{
@@ -542,7 +542,7 @@ footer a:hover{
 /* page header */
 
 #page-header {
-    background-image: url("../img/banner/b1.jpg");
+    background-image: url(../img/banner/b1.jpg);
     width: 100%;
     height: 30vh;
     background-size: cover;
@@ -644,7 +644,7 @@ footer a:hover{
 
 /* Blog Header*/
 #page-header.blog-header{
-    background-image: url("../img/banner/b19.jpg");
+    background-image: url(../img/banner/b19.jpg);
 }
 
 /* Media Query */
@@ -853,7 +853,7 @@ footer a:hover{
 
 /* About Page */
 #page-header.about-header{
-    background-image: url("../img/about/banner.png");
+    background-image: url(../img/about/banner.png);
 }
 
 #about-head{
