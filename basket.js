@@ -111,7 +111,7 @@ function appendItem(i) {
     tdquant.appendChild(quantInp)
 
     let img = document.createElement('img')
-    img.setAttribute('src', '../img/products/' +  i.product + '.jpg')
+    img.setAttribute('src', 'img/products/' +  i.product + '.jpg')
     tdimg.appendChild(img)
 
     tr.appendChild(tddelete)
