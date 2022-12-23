@@ -89,15 +89,18 @@ const items = [
 let cart = getCart()
 
 function appendItem(i) {
+    
+    let quantInp = document.createElement('input')
+    quantInp.setAttribute('value',1)
+    
+
+
     let tr = document.createElement('tr')
     let tddelete = document.createElement('td')
     let tdname = document.createElement('td')
     tdname.innerHTML = i.name
     let tdprice = document.createElement('td')
     tdprice.innerHTML = "$" + i.price
-    let tdtotal = document.createElement('td')
-    tdtotal.innerHTML =  '$' + i.price
-    let tdquant =  document.createElement('td')
     let tdimg = document.createElement('td')
 
     let aDelete = document.createElement('a')
@@ -106,9 +109,8 @@ function appendItem(i) {
     aDelete.setAttribute('class', 'bi bi-x-circle')
     tddelete.appendChild(aDelete)
     
-    let quantInp = document.createElement('input')
-    quantInp.setAttribute('value', 1)
-    tdquant.appendChild(quantInp)
+
+
 
     let img = document.createElement('img')
     img.setAttribute('src', 'img/products/' +  i.product + '.jpg')
@@ -118,8 +120,7 @@ function appendItem(i) {
     tr.appendChild(tdimg)
     tr.appendChild(tdname)
     tr.appendChild(tdprice)
-    tr.appendChild(tdquant)
-    tr.appendChild(tdtotal)
+    
 
     console.log(tr);
     console.log(addhere);
